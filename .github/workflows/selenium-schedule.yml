@@ -2,7 +2,7 @@ name: Scheduled Selenium Tests
 
 on:
   schedule:
-    - cron: "0 */6 * * *"  # runs every 6 hours
+    - cron: "30 22 * * 5"  # Every Friday at 10:30 PM UTC
   workflow_dispatch:        # allows manual trigger
 
 jobs:
